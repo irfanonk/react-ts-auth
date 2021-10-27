@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import IUser from "../types/user.type";
 import { register } from "../services/auth.service";
 
 const Register: React.FC = () => {
